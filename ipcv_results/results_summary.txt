@@ -1,0 +1,15 @@
+IPCV ASSIGNMENT — EXPERIMENT RESULTS
+=======================================================
+Dataset    : Zalcode Bubble Answer Dataset
+Classes    : crossed, default, filled, invalid
+Classifier : Support Vector Machine (SVM, RBF kernel)
+Features   : fill ratio, edge density, variance,
+             h-symmetry, v-symmetry, centre fill ratio
+
+Method                           Accuracy  Precision     Recall   F1 Score
+------------------------------------------------------------------------
+Otsu's Thresholding                0.9586     0.9590     0.9586     0.9585
+Adaptive Gaussian                  0.8113     0.8145     0.8113     0.8067
+Sauvola Thresholding               0.9294     0.9310     0.9294     0.9294
+
+Best method by F1 Score: Otsu's Thresholding (F1 = 0.9585)
