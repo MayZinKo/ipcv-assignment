@@ -19,24 +19,22 @@ bubble sheet grading using a Support Vector Machine (SVM) classifier.
 
 ## Folder Structure
 
+```
 ipcv-assignment/
-│
-├── BubbleSheetDataset/       # Dataset from Kaggle (Zalcode)
-│   ├── train/                # 486 training images + _classes.csv
-│   ├── test/                 # 39 test images + _classes.csv
-│   └── valid/                # 127 validation images + _classes.csv
-│
-├── ipcv_results/             # Output folder (generated after running)
-│   ├── results_summary.txt   # Accuracy, Precision, Recall, F1 scores
-│   ├── method_comparison.png # Bar chart comparing all methods
-│   ├── sample_outputs.png    # Sample thresholded bubble images
-│   ├── confusion_Otsu's_Thresholding.png
+├── BubbleSheetDataset/
+│   ├── train/
+│   ├── test/
+│   └── valid/
+├── ipcv_results/
+│   ├── results_summary.txt
+│   ├── method_comparison.png
+│   ├── sample_outputs.png
+│   ├── confusion_Otsu_s_Thresholding.png
 │   ├── confusion_Adaptive_Gaussian.png
 │   └── confusion_Sauvola_Thresholding.png
-│
-├── ipcv_experiment.py        # Main experiment code
-└── README.md                 # This file
----
+├── ipcv_experiment.py
+└── README.md
+```
 
 ## How to Run
 
